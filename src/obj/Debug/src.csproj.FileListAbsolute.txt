@@ -1,0 +1,7 @@
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\bin\Debug\src.exe.config
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\bin\Debug\src.exe
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\bin\Debug\src.pdb
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\obj\Debug\src.csproj.AssemblyReference.cache
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\obj\Debug\src.csproj.CoreCompileInputs.cache
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\obj\Debug\src.exe
+C:\Users\Acer Nitro\Desktop\Folder\FirstGitHubProject\src\src\obj\Debug\src.pdb

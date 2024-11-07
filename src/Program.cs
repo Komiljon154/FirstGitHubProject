@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace src
 {
@@ -10,7 +6,15 @@ namespace src
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("salom");
+            Console.Write("4 xonali son kiriting : ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number % 1000 % 100 / 10;
+            var haundreds = number % 1000 / 100;
+            var saunthens = number / 1000;
+            var result = ones + tens + haundreds + saunthens;
+            Console.WriteLine(result);
         }
     }
 }
+

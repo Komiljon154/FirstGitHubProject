@@ -1,0 +1,99 @@
+          //// 1 task 
+            //Console.WriteLine("Son kiriting:");
+            //var digit = (Console.ReadLine());
+            //var size = digit.Length;
+            //Console.WriteLine("Son :" + size + " xonali" );
+
+
+            //// 2 task
+            //Console.WriteLine("Enter a number");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var twice = number / 10 % 10;
+            //var third = number / 100 % 10;
+            //var fourth = number / 1000 % 10;
+            //var count = 0;
+            //if (ones % 2 == 0) count++;
+            //if (twice % 2 == 0) count++;
+            //if (third % 2 == 0) count++;
+            //if (fourth % 2 == 0) count++;
+            //Console.WriteLine("Even numbers :" + count + " In your number");
+
+            // 3 task
+            //var result = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine("Enter a number it will stop until you put 0");
+            //    var random =Convert.ToInt32(Console.ReadLine());
+            //    if(random != 0)
+            //    {
+            //        result += random;
+            //    }
+            //    if (random == 0)
+            //    {
+            //        break;
+            //        Console.WriteLine("Adding result :" + result);
+
+            //    }
+            //}
+
+            //// 4 task
+            //var sum = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine("Enter a number greter than 50");
+            //    var number = Convert.ToInt32(Console.ReadLine());
+            //    if (number > 50)
+            //    {
+            //        sum += number;
+            //    }
+            //    if (number == 0)
+            //    {
+            //        Console.WriteLine("Adding result :" + sum);
+            //        break;
+            //    }
+            //}
+
+            //// 5 task
+            //Console.WriteLine("Enter a number");
+            //var integer = (Console.ReadLine());
+            //bool exist = false;
+            //for(int i = 0; i < integer.Length; i++)
+            //{
+            //    if (integer[i] == 5)
+            //    {
+            //        Console.WriteLine("5 is exist");
+            //        exist = true;
+            //        break;
+            //    }
+            //}
+            //if(!exist)
+            //{
+            //    Console.WriteLine("Not exist");
+            //}
+
+            // Second Version 5 task
+            Console.WriteLine("Enter a number");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var twice = number / 10 % 10;
+            var third= number / 100 % 10;
+            var fourth = number / 1000 % 10;
+            if(ones == 5 || twice == 5 || fourth == 5 || third == 5)
+            {
+                Console.WriteLine("5 is Exist");
+            }
+            else
+            {
+                Console.WriteLine("Not Exist");
+            }
+
+            //  6 task
+            Console.WriteLine("Enter a number");
+            var digit = Convert.ToInt32(Console.ReadLine());
+            var res = Math.Pow(digit,3);
+            Console.WriteLine("Result :" + res);
+
+        }
+    }
+}

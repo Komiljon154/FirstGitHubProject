@@ -1063,7 +1063,7 @@ namespace ConsoleApp5
     }
 }
 
-//qiyin
+
 
 21. 
 N ta elementdan iborat 1 o‘lchamli list berilgan. Agar elementlari o‘suvchi bo‘lsa true aks holda false chiqaring.
@@ -1100,7 +1100,7 @@ namespace ConsoleApp5
         {
             bool isSorted = true;
 
-            for (int i = 0; i < numbers.Count - 1; i++)
+            for (var i = 0; i < numbers.Count - 1; i++)
             {
                 if (numbers[i] > numbers[i + 1])
                 {
@@ -1109,7 +1109,7 @@ namespace ConsoleApp5
                 }
             }
 
-            Console.WriteLine(isSorted ? "True" : "False"); 
+            Console.WriteLine(); 
         }
 
         public static void DisplayList(List<int> digits)
@@ -1167,7 +1167,7 @@ namespace ConsoleApp5
                 }
             }
 
-            Console.WriteLine(isSorted ? "True" : "False"); 
+            Console.WriteLine(); 
         }
 
         public static void DisplayList(List<int> digits)
